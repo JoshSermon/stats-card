@@ -35,4 +35,41 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: -1;
 }
+
+.info-heading {
+  font-size: 3rem;
+  letter-spacing: 1px;
+  font-weight: 100;
+  margin-bottom: 1rem;
+}
+
+.info-description {
+  font-size: 1.6rem;
+  margin-bottom: 4rem;
+  line-height: 1.5;
+}
+
+.info-button {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #8274a6;
+  padding: 1.5rem;
+  transition: all 0.5s;
+}
+
+.info-button:hover {
+  box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.4);
+}
+
+.info-right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  margin-top: 5rem;
+  position: relative;
+}
+
+.info-right::before
