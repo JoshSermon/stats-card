@@ -11,7 +11,7 @@ html {
 body {
   width: 100%;
   height: 100vh;
-  background-color: #443874;
+  background-color: #355070;
   padding: 1.5rem;
   display: flex;
   align-items: center;
@@ -19,9 +19,9 @@ body {
 }
 
 .card {
-  background-image: linear-gradient(to right, #5b4b8d 40%, #8274a6);
+  background-image: linear-gradient(to right, #3d5a80 0%, #98c1d9);
   color: #fff;
-  font-family: sans-serif;
+  font-family: Helvetica, sans-serif;
   padding: 2rem;
   position: relative;
 }
@@ -30,7 +30,7 @@ body {
   content: "";
   width: 90%;
   height: 110%;
-  background-color: rgba(87, 74, 149, 0.2);
+  background-color: #3d5a80;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -41,8 +41,10 @@ body {
 .info-heading {
   font-size: 3rem;
   letter-spacing: 1px;
-  font-weight: 100;
+  font-weight: bold;
   margin-bottom: 1rem;
+  font-family: Helvetica, sans-serif;
+  text-transform: capitalize;
 }
 
 .info-description {
@@ -55,7 +57,7 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
-  background-color: #8274a6;
+  background-color: #577399;
   padding: 1.5rem;
   transition: all 0.5s;
 }
